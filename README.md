@@ -22,7 +22,17 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 
 ### Compiling, Training and Evaluating the Model
 
+* The model includes two hidden layers with 80 neurons in the first layer and 30 in the second layer.  The neural network contains 2 hidden layers and an output layer with the activation functions being relu, relu and sigmoid.  The number of neurons was selected based on the input layer and decreasing the neurons for the second hidden layer.  The relu function was choose for the hidden layers to speed up the training process.
 
+* The target model performance was not achieved with the original model.  The accuracy rate was 72.62%.
 
+* To increase the model performance, the model was optimzed with three scenarios.  
+            * The first optimization removed an additional variable from the data set.  This variable was "SPECIAL_CONSIDERATIONS".  The accuracy rate was 72.49%.
+            * The second optimization then changed the output layer from sigmoid to tanh.  The accuracy rate was 72.48%.
+            * The third optimization was updated to change the number of neurons.  Layer One was changed from 80 to 150.  Layer Two was changed from 30 to 75.  The                   accuracy rate was 72.51%
+
+## Summary
+
+The neural network did not reach the target accuracy of 75% with the original model or the 3 optimized attempts.  With all attempts, the accuracy rate was in the 72.5% range.  Since this is a binary classification, a random forest classifier may be an alternate solution to achieve the target accuracy of 75% and run more efficiently than the current neural network.
 
 
