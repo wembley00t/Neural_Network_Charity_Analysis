@@ -36,6 +36,7 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 ![model results](https://user-images.githubusercontent.com/100876517/183309436-074d2ada-6263-4b84-81b6-67f4869b348e.png)
 
 * To increase the model performance, the model was optimzed with three scenarios. 
+       
        The first optimization removed an additional variable from the data set.  This variable was "SPECIAL_CONSIDERATIONS".
        The accuracy rate was 72.49%.
        
