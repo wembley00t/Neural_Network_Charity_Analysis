@@ -14,4 +14,15 @@ The dataset used for this analysis includes data from more than 34,000 organizat
     
 ### Data Preprocessing
 
+* The target variable for this model is the "IS_SUCCESSFUL" category.  
+
+* The variables considered to be features of the the model include all of the columns except "IS_SUCCESSFUL" as the target variable and "EIN" and "NAME" as they were       dropped.  These other variables include application type, affiliation, classification, use case, organization, status, income amount and ask amount.        
+
+* Variables that were neither targets or features for the dataset were "EIN" and "NAME" as these 2 variables will have minimal impact of the outcome.
+
+### Compiling, Training and Evaluating the Model
+
+
+
+
 
