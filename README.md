@@ -6,8 +6,8 @@ Alphabet Soup is a foundation dedicted to helping organizations that protect the
 
 The dataset used for this analysis includes data from more than 34,000 organizations that have received funding from Alphabet Soup.  The following steps will be completed to build the neural network:
 
-    *Preprocess the data
-    *Compile, Train and Evaluate the Model
-    *Optimize the Model
+    **Preprocess the data
+    **Compile, Train and Evaluate the Model
+    **Optimize the Model
     
     
