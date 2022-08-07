@@ -24,6 +24,8 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 
 * The model includes two hidden layers with 80 neurons in the first layer and 30 in the second layer.  The neural network contains 2 hidden layers and an output layer with the activation functions being relu, relu and sigmoid.  The number of neurons was selected based on the input layer and decreasing the neurons for the second hidden layer.  The relu function was choose for the hidden layers to speed up the training process.
 
+
+
 * The target model performance was not achieved with the original model.  The accuracy rate was 72.62%.
 
 * To increase the model performance, the model was optimzed with three scenarios.  
