@@ -35,13 +35,13 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 
 ![model results](https://user-images.githubusercontent.com/100876517/183309436-074d2ada-6263-4b84-81b6-67f4869b348e.png)
 
-* To increase the model performance, the model was optimzed with three scenarios.  
-*            The first optimization removed an additional variable from the data set.  This variable was "SPECIAL_CONSIDERATIONS".
-             The accuracy rate was 72.49%.
-*            The second optimization then changed the output layer from sigmoid to tanh.
-             The accuracy rate was 72.48%.
-*            The third optimization was updated to change the number of neurons.  Layer One was changed from 80 to 150.
-             Layer Two was changed from 30 to 75.  The accuracy rate was 72.51%
+* To increase the model performance, the model was optimzed with three scenarios. 
+       The first optimization removed an additional variable from the data set.  This variable was "SPECIAL_CONSIDERATIONS".
+       The accuracy rate was 72.49%.
+       The second optimization then changed the output layer from sigmoid to tanh.
+       The accuracy rate was 72.48%.
+       The third optimization was updated to change the number of neurons.  Layer One was changed from 80 to 150.
+       Layer Two was changed from 30 to 75.  The accuracy rate was 72.51%
 
 ## Summary
 
