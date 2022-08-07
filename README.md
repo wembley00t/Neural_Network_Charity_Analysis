@@ -16,7 +16,10 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 
 * The target variable for this model is the "IS_SUCCESSFUL" category.  
 
-* The variables considered to be features of the the model include all of the columns except "IS_SUCCESSFUL" as the target variable and "EIN" and "NAME" as they were       dropped.  These other variables include application type, affiliation, classification, use case, organization, status, income amount and ask amount.        
+* The variables considered to be features of the the model include all of the columns except "IS_SUCCESSFUL" as the target variable and "EIN" and "NAME" as they were       dropped.  These other variables include application type, affiliation, classification, use case, organization, status, income amount and ask amount.     
+
+![features](https://user-images.githubusercontent.com/100876517/183309432-fa08233f-d710-493f-8407-82f3088006ee.png)
+
 
 * Variables that were neither targets or features for the dataset were "EIN" and "NAME" as these 2 variables will have minimal impact of the outcome.
 
@@ -25,8 +28,12 @@ The dataset used for this analysis includes data from more than 34,000 organizat
 * The model includes two hidden layers with 80 neurons in the first layer and 30 in the second layer.  The neural network contains 2 hidden layers and an output layer with the activation functions being relu, relu and sigmoid.  The number of neurons was selected based on the input layer and decreasing the neurons for the second hidden layer.  The relu function was choose for the hidden layers to speed up the training process.
 
 
+![model image](https://user-images.githubusercontent.com/100876517/183309435-bfc22fb2-ec85-45e4-b5e7-7575021745fb.png)
+
 
 * The target model performance was not achieved with the original model.  The accuracy rate was 72.62%.
+
+![model results](https://user-images.githubusercontent.com/100876517/183309436-074d2ada-6263-4b84-81b6-67f4869b348e.png)
 
 * To increase the model performance, the model was optimzed with three scenarios.  
 *            The first optimization removed an additional variable from the data set.  This variable was "SPECIAL_CONSIDERATIONS".
